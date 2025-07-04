@@ -1,31 +1,24 @@
-# Byte-compiled / cache files
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Virtual environments
 .venv/
 env/
 venv/
 
-# Pytest
+# Testing
 .pytest_cache/
 
-# IDE configs
+# IDE settings (ignore everything in .idea except inspection profiles)
 .idea/
-.vscode/
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/profiles_settings.xml
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# Local/test data files
+# Logs, Excel, and temp data
+*.log
 *.xlsx
 *.csv
-*.log
 
-# Secret files
+# Environment variables and secrets
 .env
